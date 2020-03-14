@@ -6,7 +6,7 @@ namespace udemy_console_csharp_basic
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("");
+            Console.WriteLine("Novo commit para aula...");
         }
     }
 }
