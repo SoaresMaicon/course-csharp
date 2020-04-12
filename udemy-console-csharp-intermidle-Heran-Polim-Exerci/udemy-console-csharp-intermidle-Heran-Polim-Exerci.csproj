@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <RootNamespace>udemy_console_csharp_intermidle_Heran_Polim_Exerci</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Produtos\Service\" />
+  </ItemGroup>
+
+</Project>

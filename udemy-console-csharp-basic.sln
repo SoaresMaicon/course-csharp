@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.902
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "udemy-console-csharp-basic", "udemy-console-csharp-basic\udemy-console-csharp-basic.csproj", "{C78DA344-B5AE-4E01-A68B-B2010AB84D2B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "udemy-console-csharp-basic", "udemy-console-csharp-basic\udemy-console-csharp-basic.csproj", "{C78DA344-B5AE-4E01-A68B-B2010AB84D2B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Intermidle", "Intermidle", "{F33D1F90-97EB-4128-91A8-85AF80CDE398}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "udemy-console-csharp-intermidle-Heran-Polim-Exerci", "udemy-console-csharp-intermidle-Heran-Polim-Exerci\udemy-console-csharp-intermidle-Heran-Polim-Exerci.csproj", "{7234FA58-086C-4EED-9BF6-3CBE647C936F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,9 +19,16 @@ Global
 		{C78DA344-B5AE-4E01-A68B-B2010AB84D2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C78DA344-B5AE-4E01-A68B-B2010AB84D2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C78DA344-B5AE-4E01-A68B-B2010AB84D2B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7234FA58-086C-4EED-9BF6-3CBE647C936F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7234FA58-086C-4EED-9BF6-3CBE647C936F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7234FA58-086C-4EED-9BF6-3CBE647C936F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7234FA58-086C-4EED-9BF6-3CBE647C936F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7234FA58-086C-4EED-9BF6-3CBE647C936F} = {F33D1F90-97EB-4128-91A8-85AF80CDE398}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {BC0F67DA-1C23-4851-86CC-99BF73BE5963}
