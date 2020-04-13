@@ -10,6 +10,8 @@ namespace udemy_console_csharp_intermidle_Heran_Polim_Exerci
         static void Main(string[] args)
         {
             ProdutoControler Pcontrol = new ProdutoControler();
+            Pcontrol.DefineOperacao();
+            Pcontrol.executaOperacao();
 
         }
     }
