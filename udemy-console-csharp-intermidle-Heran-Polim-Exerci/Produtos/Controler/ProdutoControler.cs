@@ -8,13 +8,7 @@ namespace udemy_console_csharp_intermidle_Heran_Polim_Exerci.Produtos.Controler
 {
     class ProdutoControler
     {
-        public enum enumtipoOperacao 
-        {
-            cadastro = 1,
-            consulta = 2
-        }
-
-        public enumtipoOperacao Operacao { get; set; }
+        public EnumTipoOperacao Operacao { get; set; }
         public List<Produto> ListaProduto { get; set; } = new List<Produto>();
 
         public ProdutoControler()
@@ -26,7 +20,7 @@ namespace udemy_console_csharp_intermidle_Heran_Polim_Exerci.Produtos.Controler
         public void DefineOperacao()
         {
             System.Console.WriteLine("OPERAÇÃO: Cadastro[1]/Consulta[2]");
-            Operacao = (enumtipoOperacao)int.Parse(System.Console.ReadLine());
+            Operacao = (EnumTipoOperacao)int.Parse(System.Console.ReadLine());
 
         }
 
@@ -40,7 +34,7 @@ namespace udemy_console_csharp_intermidle_Heran_Polim_Exerci.Produtos.Controler
 
         public void executaOperacao()
         {
-            if (Operacao.Equals(enumtipoOperacao.cadastro))
+            if (Operacao.Equals(EnumTipoOperacao.cadastro))
             {
                 int n = NumeroProdutosCadastrados();
 
