@@ -15,7 +15,7 @@ namespace udemy_console_csharp_intermidle_Heran_Polim_Exerci.Produtos.Controler
         }
 
         public enumtipoOperacao Operacao { get; set; }
-        public List<Produto> ListaProduto { get; set; }
+        public List<Produto> ListaProduto { get; set; } = new List<Produto>();
 
         public ProdutoControler()
         {
@@ -42,11 +42,19 @@ namespace udemy_console_csharp_intermidle_Heran_Polim_Exerci.Produtos.Controler
         {
             if (Operacao.Equals(enumtipoOperacao.cadastro))
             {
-                CadastraListaProdutos();
+                int n = NumeroProdutosCadastrados();
+
+                for (int i = 0; i < n; i++)
+                {
+                    CadastraListaProdutos();
+                }
+
+                
                 ImpressaoLista();
             }
             else
             {
+                ProdutoRepository.ListaProdutos(ListaProduto);
                 ImpressaoLista();
             }
 
@@ -57,7 +65,6 @@ namespace udemy_console_csharp_intermidle_Heran_Polim_Exerci.Produtos.Controler
             foreach (Produto obj in ListaProduto)
             {
                 obj.ImpressaoEtiqueta();
-                System.Console.WriteLine();
             }
         }
 

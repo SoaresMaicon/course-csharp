@@ -19,7 +19,7 @@ namespace udemy_console_csharp_intermidle_Heran_Polim_Exerci.Produtos.Domain
         public override void ImpressaoEtiqueta()
         {
             base.ImpressaoEtiqueta();
-            System.Console.Write($"; Data Fabricação: {Date.ToString("dd/MM/yyyy")}");
+            System.Console.WriteLine($"; Data Fabricação: {Date.ToString("dd/MM/yyyy")}");
         }
     }
 }

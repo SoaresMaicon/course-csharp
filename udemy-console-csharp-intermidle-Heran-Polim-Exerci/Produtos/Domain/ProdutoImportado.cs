@@ -19,7 +19,7 @@ namespace udemy_console_csharp_intermidle_Heran_Polim_Exerci.Produtos.Domain
         public override void ImpressaoEtiqueta()
         {
             base.ImpressaoEtiqueta();
-            System.Console.Write($"Taxa Alfandega:{TaxaAlfandega}; Preço Total: {PrecoTotal()}");
+            System.Console.WriteLine($"Taxa Alfandega:{TaxaAlfandega}; Preço Total: {PrecoTotal()}");
         }
 
         public double PrecoTotal()

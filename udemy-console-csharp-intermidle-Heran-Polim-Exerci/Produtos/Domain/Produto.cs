@@ -18,7 +18,8 @@ namespace udemy_console_csharp_intermidle_Heran_Polim_Exerci.Produtos.Domain
 
         public virtual void ImpressaoEtiqueta()
         {
-            System.Console.WriteLine($"Produto: {Name}; Tipo: {TipoProduto}; Valor: RS {Price.ToString("D2")} ");
+            System.Console.WriteLine("");
+            System.Console.WriteLine($"Produto: {Name}; Tipo: {TipoProduto}; Valor: R$ {Price} ");
         }
 
     }
