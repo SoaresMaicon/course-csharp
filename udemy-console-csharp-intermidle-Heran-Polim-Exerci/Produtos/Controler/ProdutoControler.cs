@@ -26,15 +26,7 @@ namespace udemy_console_csharp_intermidle_Heran_Polim_Exerci.Produtos.Controler
         public void DefineOperacao()
         {
             System.Console.WriteLine("OPERAÇÃO: Cadastro[1]/Consulta[2]");
-            short locTipo = short.Parse(System.Console.ReadLine());
-            switch (locTipo)
-            {
-                case 1: Operacao = enumtipoOperacao.consulta;
-                    break;
-                case 2: Operacao = enumtipoOperacao.cadastro;
-                    break;
-            }
-
+            Operacao = (enumtipoOperacao)int.Parse(System.Console.ReadLine());
 
         }
 
