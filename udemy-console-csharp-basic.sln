@@ -7,7 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "udemy-console-csharp-basic"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Intermidle", "Intermidle", "{F33D1F90-97EB-4128-91A8-85AF80CDE398}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "udemy-console-csharp-intermidle-Heran-Polim-Exerci", "udemy-console-csharp-intermidle-Heran-Polim-Exerci\udemy-console-csharp-intermidle-Heran-Polim-Exerci.csproj", "{7234FA58-086C-4EED-9BF6-3CBE647C936F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "udemy-console-csharp-intermidle-Heran-Polim-Exerci", "udemy-console-csharp-intermidle-Heran-Polim-Exerci\udemy-console-csharp-intermidle-Heran-Polim-Exerci.csproj", "{7234FA58-086C-4EED-9BF6-3CBE647C936F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "udemy-console-csharp-intermidle-Abstrato", "udemy-console-csharp-intermidle-Abstrato\udemy-console-csharp-intermidle-Abstrato.csproj", "{30B7B9B0-8200-4879-8060-2A5F1F334EAC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,12 +25,17 @@ Global
 		{7234FA58-086C-4EED-9BF6-3CBE647C936F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7234FA58-086C-4EED-9BF6-3CBE647C936F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7234FA58-086C-4EED-9BF6-3CBE647C936F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30B7B9B0-8200-4879-8060-2A5F1F334EAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30B7B9B0-8200-4879-8060-2A5F1F334EAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30B7B9B0-8200-4879-8060-2A5F1F334EAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30B7B9B0-8200-4879-8060-2A5F1F334EAC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{7234FA58-086C-4EED-9BF6-3CBE647C936F} = {F33D1F90-97EB-4128-91A8-85AF80CDE398}
+		{30B7B9B0-8200-4879-8060-2A5F1F334EAC} = {F33D1F90-97EB-4128-91A8-85AF80CDE398}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {BC0F67DA-1C23-4851-86CC-99BF73BE5963}
