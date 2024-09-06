@@ -51,6 +51,27 @@ namespace udemy_console_csharp_intermidle_exception.Entities
 
         }
 
+public void UpdateDatesOffRoladay(DateTime checkIn, DateTime checkOut,DateTime rolday)
+        {
+            DateTime now = DateTime.Now;
+
+            if (CheckIn < rolday || CheckOut < rolday)
+            {
+                throw new DomainException("Data informada não pode ser menor que a data de feriado.");
+            }
+
+            if(checkOut <= checkIn)
+            {
+                throw new DomainException("Datad e Check Out não pode ser menor que a data de Check in");
+            }
+
+
+            CheckOut = checkOut;
+            CheckIn = CheckIn;
+
+        }
+
+        
 
         public override string ToString()
         {
